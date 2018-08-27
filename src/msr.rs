@@ -36,7 +36,7 @@ impl ReadMsrBuilder {
         };
 
         // We want bits [from, to], so build a bitmask for those bits (inclusive).
-        let mask: u64 = (from_bit..to_bit)
+        let mask: u64 = (from_bit..(to_bit+1))
             .map(|b| u64::pow(2, b))
             .sum();
 

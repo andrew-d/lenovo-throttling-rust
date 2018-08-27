@@ -1,5 +1,17 @@
 [battery]
 maximum_temp_c = 85
 
+pl1_tdp_w = 29
+pl1_duration = 28
+
+pl2_tdp_w = 44
+pl2_duration = 0.002
+
 [ac]
 maximum_temp_c = 95
+
+pl1_tdp_w = 44
+pl1_duration = 28
+
+pl2_tdp_w = 44
+pl2_duration = 0.002
