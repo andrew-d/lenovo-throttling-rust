@@ -1,0 +1,5 @@
+[battery]
+maximum_temp_c = 85
+
+[ac]
+maximum_temp_c = 95

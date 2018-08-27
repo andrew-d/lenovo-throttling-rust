@@ -1,0 +1,15 @@
+[package]
+name = "lenovo-throttling-rust"
+version = "0.1.0"
+authors = ["Andrew Dunham <andrew@du.nham.ca>"]
+
+[dependencies]
+byteorder = "1"
+crossbeam-channel = "0.1"
+##crossbeam-channel = "*"   // Doesn't work on Rust 1.24
+dbus = "0.6"
+failure = "*"
+num_cpus = "1"
+serde = "1.0"
+serde_derive = "1.0"
+toml = "0.4"
